@@ -5,8 +5,7 @@
   "main": "DiscountService.js",
   "type": "module",
   "scripts": {
-    "test": "NODE_OPTIONS=--experimental-vm-modules jest",
-    "cvrg": "NODE_OPTIONS=--experimental-vm-modules jest --coverage"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",

@@ -12,6 +12,11 @@ describe('DiscountService', () => {
     };
   });
 
+  it('Проверка инициализации', () => {
+    expect(service.strategy).toBeNull();
+    expect(service.history).toEqual([]);
+  });
+
   it('Проверка установки стратегии скидок', () => {
     service.setDiscountStrategy(mockStrategy);
     expect(service.strategy).toBe(mockStrategy);
