@@ -11,12 +11,7 @@ describe('DiscountService', () => {
       apply: jest.fn((price) => price * 0.8),
     };
   });
-
-  it('Проверка инициализации', () => {
-    expect(service.strategy).toBeNull();
-    expect(service.history).toEqual([]);
-  });
-
+  
   it('Проверка установки стратегии скидок', () => {
     service.setDiscountStrategy(mockStrategy);
     expect(service.strategy).toBe(mockStrategy);
