@@ -1,0 +1,19 @@
+{
+  "name": "discountservice",
+  "version": "1.0.0",
+  "description": "## Проект представляет собой систему расчета скидок, которая позволяут применять стратегии скидок к ценам",
+  "main": "DiscountService.js",
+  "type": "module",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest",
+    "cvrg": "NODE_OPTIONS=--experimental-vm-modules jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.26.9",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0"
+  }
+}
